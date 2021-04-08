@@ -243,65 +243,13 @@ footer p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width : 800px) {
+    ul {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+  }
+    li:not(last-child) {
+        margin: 10px;
+  }
+}
