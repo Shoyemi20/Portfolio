@@ -253,3 +253,19 @@ footer p {
         margin: 10px;
   }
 }
+
+@media (max-width: 800px) {
+  ul {
+       display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
+    li:not(last-child) {
+        margin: 10px
+ }
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+}
